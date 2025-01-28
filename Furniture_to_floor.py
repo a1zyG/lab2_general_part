@@ -4,6 +4,8 @@ class Furniture:
         self.floor = floor
         self.k = k
     def result(self):
+        if self.kg <= 0 or self.kg >= 300:
+            return "runtime error!"
         cost = 0
         if (kg < 50):
             cost = 300
