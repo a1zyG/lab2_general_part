@@ -16,7 +16,7 @@ class Furniture:
         if (k == 0):
             return cost + 300 * self.floor *(kg // 100)
         else:
-            return cost
+            return cost;
 
 
 kg, floor, k =  map(int,input().split()) # если k = 1, то груз можно поднять на лифте. Иначе - 0
